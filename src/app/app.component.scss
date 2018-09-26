@@ -1,0 +1,20 @@
+.nav-item:hover{
+    background-color: darken(#007bff, 5%);
+}
+
+.nav-item{
+    // padding-left: .5em;
+    padding-right: .8em;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.navbar-brand{
+    text-transform: uppercase;
+    word-spacing: 3px;
+    font-family: 'Trebuchet MS';
+}
+
+.cursor{
+    cursor: pointer;
+}
