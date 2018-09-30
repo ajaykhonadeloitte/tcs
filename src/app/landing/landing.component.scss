@@ -1,0 +1,12 @@
+img{
+    width: auto;
+    height: 75vh;
+    object-fit: cover;
+    margin: auto;
+}
+
+@media screen and (orientation: potrait){
+    img{
+        height: 50vh;
+    }
+}

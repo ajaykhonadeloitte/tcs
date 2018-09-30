@@ -10,6 +10,7 @@ import { ProgramsComponent } from './programs/programs.component';
 import { FacilitiesComponent } from './facilities/facilities.component';
 import { RulesComponent } from './rules/rules.component';
 import { ContactComponent } from './contact/contact.component';
+// import { SmoothScrollToDirective, SmoothScrollDirective } from '../../node_modules/ng2-smooth-scroll';
 
 @NgModule({
   declarations: [
@@ -21,6 +22,8 @@ import { ContactComponent } from './contact/contact.component';
     FacilitiesComponent,
     RulesComponent,
     ContactComponent
+    // SmoothScrollToDirective,
+    // SmoothScrollDirective
   ],
   imports: [
     BrowserModule,

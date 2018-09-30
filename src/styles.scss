@@ -1,1 +1,21 @@
 /* You can add global styles to this file, and also import other style files */
+.cursor{
+    cursor: pointer;
+}
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+h1{
+    font-family: 'Trebuchet MS';
+    word-spacing: 5px;
+    text-align: center;
+    padding: .75em 0em;
+}
+
+.darken-info{
+    background-color: darken(#17a2b8, 15%);
+}
+
+.lighten-info{
+    background-color: lighten(#17a2b8, 15%);
+}
