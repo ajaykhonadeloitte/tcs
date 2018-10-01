@@ -1,7 +1,7 @@
-<section class="container-fluid bg-info pb-3 ">
+<section class="container-fluid bg-info py-3 pb-5 ">
   <h1 class=" text-white text-center ">PROGRAMS WE OFFER</h1>
   <div class="row justify-content-around ">
-    <div class="col-lg-3 col-sm-6 mx-2 my-3 text-center lighten-info text-light cursor shadow" *ngFor="let course of courses">
+    <div class="col-lg-3 col-sm-6 mx-2 my-3 text-center lighten-info text-light cursor  py-3" *ngFor="let course of courses">
       <img class="d-block m-auto" width="200" height="200" [src]="course.imageUrl"  alt="Second slide">
       <br>
       <h5 class="">{{course.title}}</h5>

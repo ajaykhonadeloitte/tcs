@@ -1,0 +1,39 @@
+*{
+    // border: 1px solid;
+    border-radius: 0;
+}
+
+input, textarea{
+    padding: .5em;
+    border-radius: 0;
+    width: 100%;
+    margin: .2em 0em;
+    // box-shadow: 1px 1px 10px #333;
+    // border: none;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+}
+.item{
+
+}
+.map{
+    // background: transparent;
+    // border: none;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 65% 25%;
+    justify-content: space-between;
+    grid-gap: 2em 1em;
+}
+.address{
+    grid-column: 2 span;
+}
+
+.feedback{
+    background-color: transparent;
+    border: 0;
+}
