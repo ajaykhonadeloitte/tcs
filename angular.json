@@ -30,7 +30,7 @@
               "src/styles.scss"
             ],
             "scripts": [
-              
+              "node_modules/wowjs/dist/wow.min.js"
             ]
           },
           "configurations": {
@@ -81,6 +81,7 @@
               "src/styles.scss"
             ],
             "scripts": [
+              "node_modules/wowjs/dist/wow.min.js"
             ],
             "assets": [
               "src/favicon.ico",
