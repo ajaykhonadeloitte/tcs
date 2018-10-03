@@ -1,4 +1,5 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
+import { Router, ActivatedRoute } from '@angular/router';
 
 
 @Component({
@@ -7,12 +8,12 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 
-export class AppComponent {
+export class AppComponent implements OnInit {
   title = 'app';
-  constructor(){
-
+  constructor(private router: Router, private route: ActivatedRoute) {
   }
-  scroll(){
-    console.log('Scrolled!');
+  ngOnInit() {
+    
   }
+  
 }

@@ -2,10 +2,13 @@ img{
     border-radius: 50%;
 }
 
-.lighten-info{
-    background-color: darken(#17a2b8, 15%);
+.course{
+    transition: 200ms ease-out;
 }
 
+.course:hover {
+    background-color: #eee;
+}
 .cursor{
     cursor: pointer;
 }

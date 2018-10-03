@@ -1,0 +1,17 @@
+.nav-item:hover{
+    box-shadow: 1px 0px 10px  white inset;
+}
+
+.nav-item{
+    // padding-left: .5em;
+    padding-right: 1em;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.navbar-brand{
+    text-transform: uppercase;
+    word-spacing: 3px;
+    font-family: 'Trebuchet MS';
+}
+
